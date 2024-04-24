@@ -1,0 +1,607 @@
+
+.wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:70%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 3rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+  background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3.5rem;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 28px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+    background: radial-gradient(circle, #fff, #ffd700); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3.5rem;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+
+@media only screen  and (max-width: 350px){
+
+
+
+  .wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:90%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 2.5rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+    background: radial-gradient(circle, #fff, #ffd700); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 90%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+  background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 75%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 22px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+}
+
+@media only screen and (min-width: 350px)  and (max-width: 450px){
+
+
+
+  .wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:90%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 2.8rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+    background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 80%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+    background: radial-gradient(circle, #fff, #ffd700); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 75%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 22px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+}
+@media only screen and (min-width: 450px)  and (max-width: 550px){
+
+  .wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:90%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 2.8rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+    background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 65%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+    background: radial-gradient(circle, #fff, #ffec7f); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 65%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 22px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+
+}
+@media only screen and (min-width: 550px)  and (max-width: 650px){
+
+  .wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:90%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 3rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+    background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 60%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+    background: radial-gradient(circle, #fff, #ffec7f); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 60%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 22px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+
+}
+@media only screen and (min-width: 650px)  and (max-width: 850px){
+
+  .wrapper{
+
+    display: flex;
+    flex-direction: row;
+margin:0 auto;
+width:90%;
+align-items: center;
+justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: "Karantina";
+    font-size: 3.5rem;
+    width:100%;
+    direction: rtl;
+}
+.image{
+    width:70%;
+    object-fit:contain
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+
+  
+  .form {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+  }
+  
+
+  
+.bold{
+    display: inline;
+    color:goldenrod;
+    
+}
+.input {
+    background: radial-gradient(circle, #ffffffa3, #ffd90065); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "KarantinaL";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    direction: rtl;
+  }
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "KarantinaL";
+   
+}
+.input:focus{
+    border: none ;
+    outline: none;
+}
+.button{
+    background: radial-gradient(circle, #fff, #ffec7f); /* Radial gradient בין לבן לזהב קליל */
+    box-shadow: 0 0 8px 2px rgb(153, 153, 153);
+    height: 3rem;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2% auto;
+    color: black;
+    font-family: "Karantina";
+    font-size: 25px;
+    border: none;
+    padding: 0 10px;
+    direction: rtl;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+
+}

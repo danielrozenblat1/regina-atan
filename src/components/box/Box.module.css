@@ -1,0 +1,468 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:450px;
+    width:350px;;
+box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+margin:2% auto;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    width:35%;
+    box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+    margin:0 auto;
+    background:rgb(237, 237, 237);
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.image{
+    height:150px;
+ margin:0 auto; 
+ object-fit: cover;
+ justify-content: center;
+}
+.description{
+font-family: "KarantinaL";
+font-size:1.8rem;
+width:90%;
+color:rgb(0, 0, 0);
+margin:0 auto;
+text-align: center;
+letter-spacing: 1px;
+direction: rtl;
+}
+.title{
+    font-family: "Karantina";
+    font-size:2.5rem;
+    color:rgb(0, 0, 0);
+    direction: rtl;
+    margin:0 auto;
+    text-align: center;
+    }
+@media only screen and (max-width: 350px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:350px;
+        width:270px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.6rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.5rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:380px;
+        width:310px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.7rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.5rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:420px;
+        width:330px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.8rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.8rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:450px;
+        width:350px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.8rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.8rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:420px;
+        width:300px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.8rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.8rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+
+}
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:450px;
+        width:330px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.9rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:2.8rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}
+@media only screen and (min-width: 950px) and (max-width: 1150px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:480px;
+        width:400px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.9rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:3rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1350px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:440px;
+        width:350px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.7rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:3rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}
+@media only screen and (min-width: 1350px) and (max-width: 1450px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:440px;
+        width:350px;
+    box-shadow: 0 0 9px 3px rgba(221, 148, 32, 0.486);
+    margin:5% auto;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        box-shadow: 0 0 9px 3px rgba(111, 111, 111, 0.463) ;
+        margin:0 auto;
+        background:rgb(237, 237, 237);
+        border-radius: 50%;
+    }
+    
+    .image{
+        height:150px;
+     margin:0 auto; 
+     object-fit: cover;
+     justify-content: center;
+    }
+    .description{
+    font-family: "KarantinaL";
+    font-size:1.7rem;
+    width:90%;
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    direction: rtl;
+    }
+    .title{
+        font-family: "Karantina";
+        font-size:3rem;
+        color:rgb(0, 0, 0);
+        direction: rtl;
+        margin:0 auto;
+        text-align: center;
+        }
+}

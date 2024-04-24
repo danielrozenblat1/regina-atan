@@ -1,0 +1,51 @@
+/* styles.module.css */
+
+.Btn {
+    width:200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  
+  .Btn::before {
+    position: absolute;
+    content: "לשיחת ייעוץ חינמית";
+    font-family: "Karantina";
+    font-size: 22px;
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+  
+  .Btn:hover {
+    background-position: right;
+  }
+  
+  .Btn:hover::before {
+    background-position: right;
+  }
+  
+  .Btn:active {
+    transform: scale(0.95);
+  }
+  
+ 
+  
