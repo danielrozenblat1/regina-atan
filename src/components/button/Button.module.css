@@ -1,7 +1,7 @@
 /* styles.module.css */
 
 .Btn {
-    width:200px;
+    width:250px;
     height: 60px;
     border: none;
     border-radius: 10px;
@@ -9,6 +9,7 @@
     background-size: 250%;
     background-position: left;
     color: #ffd277;
+    direction: rtl;
     position: relative;
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@
   
   .Btn::before {
     position: absolute;
-    content: "לשיחת ייעוץ חינמית";
+    content: "רגינה, בואי נדבר";
     font-family: "Karantina";
     font-size: 22px;
     color: #ffd277;

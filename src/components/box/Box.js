@@ -1,7 +1,7 @@
 import styles from "./Box.module.css"
 import { Player } from "@lordicon/react"
 import { useEffect, useRef } from "react"
-
+import ScrollReveal from "scrollreveal"
 
 const Box=(props)=>{
  const playerRef1=useRef(null)
@@ -17,18 +17,28 @@ const handleComplete=()=>{
     useEffect(()=>{
   
        playerRef1?.current?.playFromBeginning()
-        // ScrollReveal().reveal(`.${styles.description}`, {
-        //     duration: 500,
-        //     distance: "60px",
-        //     origin: "bottom",
-        //     easing: "ease-out",
-        //     reset: false,
-        //     viewFactor: 0.2,
-        //     interval: 300,
-        //     delay: 200,
-        //     scale: 1,
-        //   });
- 
+        ScrollReveal().reveal(`.${styles.description}`, {
+            duration: 500,
+            distance: "60px",
+            origin: "left",
+            easing: "ease-out",
+            reset: false,
+            viewFactor: 0.2,
+            interval: 300,
+            delay: 200,
+            scale: 1,
+          });
+          ScrollReveal().reveal(`.${styles.title}`, {
+            duration: 500,
+            distance: "60px",
+            origin: "right",
+            easing: "ease-out",
+            reset: false,
+            viewFactor: 0.2,
+            interval: 300,
+            delay: 200,
+            scale: 1,
+          });
       },[])
 
     
