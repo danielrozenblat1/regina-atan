@@ -12,6 +12,7 @@ import ThirdScreen from './screens/ThirdScreen';
 import BasicAccordion from './components/questions/Akordion';
 import ForthScreen from './screens/ForthScreen';
 import CustomizedTimeline from './screens/FifthScreen';
+import ByMe from './components/ByMe/ByMe';
 function App() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -36,17 +37,18 @@ function App() {
   };
 
 
-  return <div style={{overflowX:"hidden" , width:"100%"}}>
+  return <div style={{overflow:"hidden" , width:"100%"}}>
   <NavBar/>
   <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <ForthScreen/>
   <FormScreen/>
-  <SmokedEyeliner icon={eyeCare}/>
+  {/* <SmokedEyeliner icon={eyeCare}/> */}
   <ThirdScreen/>
   <Specialties/>
   <CustomizedTimeline/>
   <BasicAccordion/>
+  <ByMe/>
   </div>
 }
 

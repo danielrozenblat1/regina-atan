@@ -28,6 +28,24 @@ const SmokedEyeliner = (props) => {
         </div>
         <div className={styles.right} itemScope itemType="https://schema.org/Article">
           <div className={styles.title} itemProp="name">
+          מחטים
+          </div>
+          <div className={styles.description} itemProp="description">
+          עניין של מחטים באיפור קבוע זה עניין מאוד חשוב ומעוררות דאגה אצל הלקוחה. 
+אני עובדת עם מחטים שעשויים ממתכת נירוסטה אל-חלד  בדרגה רפואית, כך שזה מוריד כל סיכוי לאלרגיה. הכיסוי השקוף עשוי PVC עמיד במיוחד. כל מחט ארוזה בנפרד באריזה סטרילית, ולא עוברים תהליך עיקור . בכל טיפול ולכל לקוחה אני פותחת מולה מחט חדשה.
+אני מאוד דואגת לסטריליות, לבריאות שלכם ולשקט הנפשי שלכם .
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.wrapper}>
+        <div className={styles.left}>
+          <div className={styles.icon}>
+            <Player ref={playerRef1} onComplete={handleComplete} icon={props.icon} size="100%" itemProp="video" />
+          </div>
+        </div>
+        <div className={styles.right} itemScope itemType="https://schema.org/Article">
+          <div className={styles.title} itemProp="name">
             שיטת הפודרה וההצללה
           </div>
           <div className={styles.description} itemProp="description">

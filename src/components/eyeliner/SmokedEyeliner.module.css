@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     flex-direction: row;
-    width:70%;
+    width:80%;
     margin:3% auto;
     height:auto;
 }

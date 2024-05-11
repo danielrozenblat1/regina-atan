@@ -5,10 +5,22 @@
  color:black;
     justify-content: center;
     text-align: center;
-    margin:0 auto 5%;
+    margin:0 auto;
     direction: rtl;
     padding-top:5%;
     font-family: "Karantina";
+}
+.description{
+
+    font-size: 2rem;
+       
+    width:80%;
+ color:black;
+    justify-content: center;
+    text-align: center;
+    margin:3% auto ;
+
+    font-family: "KarantinaL";
 }
 .center{
     display: flex;

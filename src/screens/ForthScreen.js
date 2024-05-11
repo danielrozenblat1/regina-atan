@@ -6,7 +6,7 @@ import result2 from "../images/רגינה אטן לקוחות ממליצות 3.p
 import result4 from "../images/רגינה אטן לקוחות ממליצות 4.png"
 import result5 from "../images/רגינה אטן לקוחות ממליצות 5.png"
 import result6 from "../images/רגינה אטן לקוחות ממליצות 6.png"
-import result7 from "../images/רגינה אטן לקוחות ממליצות.png"
+import result7 from "../images/רגינה אטן לקוחות ממליצות 7.png"
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
