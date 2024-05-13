@@ -19,8 +19,8 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: window.innerWidth < 550 ? 1 : window.innerWidth < 850 ? 2 : 4,
-  slidesToScroll: window.innerWidth < 550 ? 1 : window.innerWidth < 850 ? 2 : 4,
+  slidesToShow: window.innerWidth < 450 ? 1 : window.innerWidth < 650 ? 2 : 4,
+  slidesToScroll: window.innerWidth < 450 ? 1 : window.innerWidth < 650 ? 2 : 4,
   // הוספת מרווח בין תמונות באמצעות padding
   style: {
     padding: '0 10px', // התאמת המרווח לפי הצורך שלך
@@ -66,7 +66,7 @@ const sliderSettings = {
 
 
 return <>
-<div className={styles.title}>תשמעו את זה מהלקוחות שלי</div>
+<div className={styles.title} id="לקוחות ממליצות">תשמעו את זה מהלקוחות שלי</div>
 <div className={styles.description}>אין דבר כזה אצלי שלקוחה לא יוצאת מרוצה מהקליניקה שלי ! , תשמעי את זה מהן..</div>
 
 <div className={styles.sliderContainer}>

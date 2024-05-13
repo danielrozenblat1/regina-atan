@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./Specialties.module.css";
-import regina from "../../images/רגינה אטן תוצאות מיקס.png";
+import regina from "../../images/רגינה אטן תעודה.png";
 import Button from "../button/Button";
 import ScrollReveal from "scrollreveal";
 

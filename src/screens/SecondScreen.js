@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./SecondScreen.module.css";
-import regina from "../images/רגינה אטן.png";
+import regina from "../images/רגינה אטן תדמית.png";
 import method from "../icons/wired-lineal-978-project-management (1).json";
 import needle from "../icons/wired-lineal-775-needle.json";
 import paste from "../icons/wired-lineal-1216-tube.json";
@@ -69,7 +69,7 @@ const SecondScreen = () => {
         </div>
 
         <div className={styles.right}>
-          <div className={styles.title} id="רגינה אטן">רגינה אטן</div>
+          <div className={styles.title} id="קצת עלי">רגינה אטן</div>
           <div className={styles.job}>מומחית לאיפור קבוע</div>
           <div className={styles.description}>
             אני מאמינה שאיפור קבוע הוא לא רק פשוט איפור, אלא חוויה מדהימה שמשנה את מראה הפנים של האדם. הוא מעניק ללקוח את הביטחון והרוגע שהם צריכים כשהם יוצאים לדרך בבוקר, באימון , בחופשה או בדייט וזה מה שהופך את התהליך למיוחד וחשוב.

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Button.module.css';
 import ScrollReveal from 'scrollreveal';
+import {Link as ScrollLink} from "react-scroll"
 const Button = () => {
  
 useEffect(()=>{
@@ -21,7 +22,7 @@ useEffect(()=>{
 
  
 
-  return <div className={styles.button}><button className={styles.Btn}></button></div>;
+  return <ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.button}><button className={styles.Btn}></button></div></ScrollLink>;
 }
 
 export default Button;

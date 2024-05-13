@@ -57,7 +57,7 @@ const NavBar = () => {
           <ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink>
           <ScrollLink to="שאלות נפוצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>שאלות נפוצות</div></ScrollLink>
           <ScrollLink to="לקוחות ממליצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצות</div></ScrollLink>
-          <ScrollLink to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
+          <ScrollLink to="קצת עלי" smooth={true} duration={1000} offset={-200}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
             </div>}
       
         <div className={`${styles.navLinks} ${isOpen ? styles.openLinks : ''}`}>

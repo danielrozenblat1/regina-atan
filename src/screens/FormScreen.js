@@ -75,7 +75,7 @@ const nameRef=useRef('')
 
 
 return <>
-<div className={styles.title}>הגיע הזמן להתייפות ברוגע !</div> 
+<div className={styles.title} id="צור קשר">הגיע הזמן להתייפות ברוגע !</div> 
 <div className={styles.wrapper}>
 
 
