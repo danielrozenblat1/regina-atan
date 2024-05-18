@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-width:40%;
+width:35%;
 
 
 margin:0 auto;
@@ -29,11 +29,12 @@ direction: rtl;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex:3
 }
 .specialty{
     display: flex;
     flex-direction: column;
-    width:80%;
+    width:85%;
     margin:0 auto;
     padding:0.5rem;
     border-bottom: 3px white dashed;
@@ -41,21 +42,22 @@ direction: rtl;
 .title{
 
     font-family: "Karantina"; 
-    font-size: 4rem;
+    font-size: 3.5rem;
 text-align: center;
 margin: 2% auto;
 direction: rtl;
 }
 .description{
     font-family: "KarantinaL"; 
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 text-align: center;
+
 margin: 2% auto;
 direction: rtl;
 }
 
 .image{
-    width:90%;
+    width:70%;
     object-fit: contain;
     display: flex;
     margin: 0 auto;
@@ -478,7 +480,7 @@ direction: rtl;
         display: flex;
         flex-direction: column;
         align-items: center;
-    width:50%;
+    width:35%;
     
     
     margin:0 auto;
@@ -495,11 +497,12 @@ direction: rtl;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+  
     }
     .specialty{
         display: flex;
         flex-direction: column;
-        width:80%;
+        width:85%;
         margin:0 auto;
         padding:0.5rem;
         border-bottom: 3px rgb(255, 255, 255) dashed;
@@ -514,7 +517,7 @@ direction: rtl;
     }
     .description{
         font-family: "KarantinaL"; 
-        font-size: 2rem;
+        font-size: 1.8rem;
     text-align: center;
     margin: 2% auto;
     direction: rtl;

@@ -1,0 +1,51 @@
+@keyframes snowflakes {
+    0% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+  
+  .snowflake {
+    position: fixed;
+    width: 70px;
+    height: 20px;
+    background: rgba(135, 135, 135, 0.5);
+    animation: snowflakes 10s infinite alternate;
+  }
+  
+  .snowflake:nth-child(2n) {
+    animation-delay: 0.5s;
+  }
+  
+  .snowflake:nth-child(3n) {
+    animation-delay: 0.75s;
+  }
+  
+  .snowflake:nth-child(4n) {
+    animation-delay: 1s;
+  }
+  
+  .snowflake:before,
+  .snowflake:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .snowflake:before {
+    left: -5px;
+    border-width: 0 5px 10px 5px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent;
+  }
+  
+  .snowflake:after {
+    right: -5px;
+    border-width: 0 5px 10px 5px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent;
+  }
+  

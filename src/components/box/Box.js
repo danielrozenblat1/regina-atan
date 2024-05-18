@@ -44,10 +44,11 @@ const handleComplete=()=>{
     
     return <>
     <div className={styles.box} id={props.id}>
-    <div className={styles.icon}><Player ref={playerRef1} onComplete={handleComplete} icon={props.icon} size="100%"   /></div>
+   <img className={styles.image} src={props.src}/>
     <div className={styles.title}>{props.title}</div>
     <div className={styles.description}>{props.description}</div>
     </div>
     </>
 }
 export default Box
+{/* <Player ref={playerRef1} onComplete={handleComplete} icon={props.icon} size="100%"   /> */}

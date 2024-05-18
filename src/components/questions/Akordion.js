@@ -124,7 +124,7 @@ export default function BasicAccordion() {
 מומלץ להישתמש בתכשיר ניקוי פנים עדינים ללא גרגירי פילינג. הימנעי משימוש במוצרים המכילים אלכוהול או כימיקלים קשים, מכיוון שהם עלולים לגרום לאיפור שלך לדהות."/>
 
 
- <div className={styles.center}><Button /></div>
+ {/* <div className={styles.center}><Button /></div> */}
       {/* <DropdownAccordion title="מה אני עושה אם אני אתקל בבעיה ? " content="אז סביר להניח שיהיו דברים מאתגרים, בשביל זה אני כאן. אני אלווה אותך בכל מהלך תוכנית ההכשרה מפתיחת החנות ועד לחנות יציבה ורווחית באיביי" />
       <Accordion
         disabled

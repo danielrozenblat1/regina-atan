@@ -42,7 +42,7 @@ const Specialties = () => {
           <div className={styles.specialty} itemScope itemType="https://schema.org/Article">
             <div className={styles.title} itemProp="name">פיגמנט שפתיים</div>
             <div className={styles.description} itemProp="description">
-              הפחד מההזרקות עוצר אותך אבל יחד איתי נגדיר לך במיוחד פיגמנט שפתיים ונגשים לך את החלום
+              הפחד מההזרקות עוצר אותך אבל יחד איתי נגדיר לך במיוחד פיגמנט שפתיים ונגשים לך את החלום אז אם אתן מחפשות דרך פשוטה ויפה לשדרג את מראה השפתיים שלכן, אני ממליצה לך את הטיפול פיגמנט שפתיים.
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const Specialties = () => {
           <div className={styles.specialty} itemScope itemType="https://schema.org/Article">
             <div className={styles.title} itemProp="name">עפעפיים ירודים</div>
             <div className={styles.description} itemProp="description">
-              פותרת את הבעיה בשיטת ההצללה והפודרה - מכהים את החלק החיצוני של הריסים מה שיוצר מראה טבעי
+            פותרת את הבעיה בשיטת הצללה- מכהים את החלק החיצוני של ריסים , מה שיוצר לנו הדגשה טבעית של העיניים
             </div>
           </div>
 

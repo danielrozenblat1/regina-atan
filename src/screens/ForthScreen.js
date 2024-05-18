@@ -7,7 +7,8 @@ import result4 from "../images/רגינה אטן לקוחות ממליצות 4.p
 import result5 from "../images/רגינה אטן לקוחות ממליצות 5.png"
 import result6 from "../images/רגינה אטן לקוחות ממליצות 6.png"
 import result7 from "../images/רגינה אטן לקוחות ממליצות 7.png"
-
+import result8 from "../images/רגינה אטן לקוחות ממליצות 8.png"
+import result9 from "../images/רגינה אטן לקוחות ממליצות 9.png"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Button from "../components/button/Button"
@@ -58,6 +59,13 @@ const sliderSettings = {
           {
             type: 'image',
             src: result7,
+          },     {
+            type: 'image',
+            src: result8,
+          },
+          {
+            type: 'image',
+            src: result9,
           },
           
  

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import styles from "./SecondScreen.module.css";
-import regina from "../images/רגינה אטן תדמית.png";
-import method from "../icons/wired-lineal-978-project-management (1).json";
-import needle from "../icons/wired-lineal-775-needle.json";
-import paste from "../icons/wired-lineal-1216-tube.json";
+import regina from "../images/רגינה אטן צילום תדמית.png";
+import method from "../images/רגינה אטן שיטת טיפול.png" ;
+import needle from "../images/רגינה אטן התאמת מחט.png" ;
+import paste from "../images/רגינה אטן חומר אלחוש.png"
 import Button from "../components/button/Button";
 import ScrollReveal from "scrollreveal";
 import Box from "../components/box/Box";
@@ -39,28 +39,6 @@ const SecondScreen = () => {
       <div className={styles.header}>
         איתי הפחד שלך <div className={styles.bold}>נעלם</div>
       </div>
-
-      <div className={styles.row}>
-        <Box
-          icon={paste}
-          title="חומר אלחוש מיוחד"
-          description="כשאני נמצאת בסטודיו שלי ואני מבצעת איפור קבוע ללקוחותי, אני מרגישה כמה שהם רגועות ומנוחות בזמן שאני יוצרת אמנות על העור שלהם"
-        />
-        <Box
-          icon={needle}
-          title="התאמת מחט לסוג עור"
-          description="שלב מאוד חשוב ואחראי מבחינת המסטרית. בבחירת מחט נכונה אנחנו מבטיחים לעצמינו עבודה בטוחה ,קלה, פחות טראומטית ללקוחה ותוצאה מושלמת."
-        />
-        <Box
-          icon={method}
-          title="שיטת טיפול חדשנית"
-          description="חשוב לראות איך העור שלך מגיב למחט שהתאמתי לך ולכן התהליך יתבצע ב-2 חלקים : 30% מהטיפול בפגישה הראשונה והשאר בפגישה השנייה"
-        />
- 
-      </div>
-      <div className={styles.center}>
-          <Button buttonText="איפה אני רואה עבודות שלך ?" to="צור קשר" />
-        </div>
       <div className={styles.wrapper}>
         <div className={styles.left}>
           <div className={styles.imageWrapper}>
@@ -76,6 +54,28 @@ const SecondScreen = () => {
           </div>
         </div>
       </div>
+      <div className={styles.row}>
+        <Box
+          src={paste}
+          title="חומר אלחוש מיוחד"
+          description="תפקידו של חומר האלחוש שלי הוא לנטרל את הכאב של המחט כמעט לגמרי! בעזרת חומר האלחוש הקסום שיש לי,  אני רואה איך תמיד הלקוחה רגועה ונינוחה בזמן הטיפול ."
+        />
+        <Box
+          src={needle}
+          title="התאמת מחט לסוג עור"
+          description="שלב מאוד חשוב ואחראי מבחינת המסטרית. בבחירת מחט נכונה אנחנו מבטיחים לעצמינו עבודה בטוחה ,קלה, פחות טראומטית ללקוחה ותוצאה מושלמת."
+        />
+        <Box
+          src={method}
+          title="שיטת טיפול"
+          description="התאמת שיטת טיפול הוא אינדיבידואלית לכל לקוחה. בטיפול הראשון אני עובדת מאוד זהיר ושטחי ,כדי להכיר את העור ולראות את התגובה שלו. בטיפול השני אני בוחנת את החלמתו ועובדת בהתאם."
+        />
+ 
+      </div>
+      <div className={styles.center}>
+          <Button buttonText="איפה אני רואה עבודות שלך ?" to="צור קשר" />
+        </div>
+
     </>
   );
 };
