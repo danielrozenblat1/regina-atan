@@ -41,7 +41,7 @@ function App() {
   return <div style={{overflow:"hidden" , width:"100%"}}>
 
   <NavBar/>
-  
+ 
   <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <ThirdScreen/>

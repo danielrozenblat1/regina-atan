@@ -42,7 +42,7 @@ const NavBar = () => {
   return (
     <>
       <nav className={scrolled ? styles.floatingNav :styles.navbar}>
-        <div className={styles.logoContainer}>
+        <div className={ width<850 ? styles.logoContainerC :styles.logoContainer}>
           <div className={styles.logo}>
             <img className={styles.image} src={logo} alt="רגינה אטן לוגו"/>
           </div>
