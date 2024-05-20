@@ -29,9 +29,10 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  Loop:true,
+  autoplay: true, // Enable autoplay
+  autoplaySpeed: 2500,
   slidesToShow: window.innerWidth < 450 ? 1 : window.innerWidth < 650 ? 2 : 3,
-  slidesToScroll: window.innerWidth < 450 ? 1 : window.innerWidth < 650 ? 2 : 3,
+  slidesToScroll:1,
   // הוספת מרווח בין תמונות באמצעות padding
   style: {
     padding: '0 10px', // התאמת המרווח לפי הצורך שלך
